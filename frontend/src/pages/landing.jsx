@@ -26,7 +26,7 @@ export default function Landingpage() {
             <h1><span style={{ color: "#FF9839" }}>Connect with your loved ones</span></h1>
             <p>Cover a distance by MeetWave</p>
             <div role='button'>
-              <Link to={"/home"}>Get Started</Link>
+              <Link to={"/auth"}>Get Started</Link>
             </div>
           </div>
           <div>
