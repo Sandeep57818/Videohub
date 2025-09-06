@@ -1,8 +1,12 @@
 import React from 'react';
 import "../App.css";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export default function Landingpage() {
+
+const router = useNavigate()
+
   return (
     <div className='LandingPageContainer'>
       <div
@@ -13,10 +17,16 @@ export default function Landingpage() {
             <h1>MeetWave</h1>
           </div>
           <div className='navlist'>
-            <p> Join as Guest</p>
-            <p>Register</p>
-            <div role="button">
-              <p>Login</p>
+            <p onClick={() =>{
+              router("/q78qse5")
+            }}> Join as Guest</p>
+            <p  onClick={() => {
+              router("/auth")
+            }}>Register</p>
+            <div onClick={() => {
+              router("/auth")
+            }} role="button">
+              <p >Login</p>
             </div>
           </div>
         </nav>
@@ -30,7 +40,7 @@ export default function Landingpage() {
             </div>
           </div>
           <div>
-            <img src='/mobile.png' alt="image" />
+            <img src='/mobile.png' alt="pic" />
           </div>
         </div>
 
