@@ -27,7 +27,7 @@ app.get("/home",(req,res) => {
 });
 
 const start = async () => {
-   const connectionDb = await mongoose.connect("Your_mongo_db_URL")
+   const connectionDb = await mongoose.connect("mongodb+srv://Video_hub:mongodb.123@videohub.fl2ztwk.mongodb.net/")
    console.log(`Mongo Connected DB Host: ${connectionDb.connection.host}`)
         server.listen(app.get("port"), () =>{
         console.log("listening to the port 8000")
