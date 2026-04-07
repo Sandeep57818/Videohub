@@ -1,6 +1,3 @@
-VideoHub - Real-Time Video Collaboration Platform
-
-
 <h2>🚀 Full-Stack Video Meeting & Collaboration Platform</h2>
 <p><strong>Node.js - Express - Socket.io - MongoDB - EJS</strong></p>
 
