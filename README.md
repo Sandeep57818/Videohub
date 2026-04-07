@@ -1,7 +1,4 @@
 VideoHub - Real-Time Video Collaboration Platform
-<div align="center">
-<img src="./frontend/public/logo.svg" width="200" alt="VideoHub Logo"/>
-
 
 
 <h2>🚀 Full-Stack Video Meeting & Collaboration Platform</h2>
