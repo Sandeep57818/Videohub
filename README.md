@@ -29,6 +29,7 @@
 VideoHub is a production-ready full-stack web application built for real-time video collaboration and team communication.
 
 🎯 What it does:
+
 Powers live video meetings with real-time communication
 
 Manages users with secure authentication system
