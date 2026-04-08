@@ -190,11 +190,6 @@ Update src/app.js with your MongoDB Atlas connection:
 
 javascript
 
-const mongoConnection = await mongoose.connect(
-
-  "mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/videohub?retryWrites=true&w=majority"
-);
-
 Get connection string:
 
 Login to MongoDB Atlas
